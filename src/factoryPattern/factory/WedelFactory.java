@@ -17,7 +17,7 @@ public class WedelFactory implements Factory {
                 chocolate = new Wedel(ChocolateType.Dark);
                 break;
             default:
-                System.out.println("Wedel doesn't produce such chocolate, biy we recomment to taste the one with NUTS! ");
+                System.out.println("DEFAULT message: Wedel doesn't produce such chocolate, but we recommend to taste the one with NUTS! ");
                 chocolate = new Wedel(ChocolateType.Nuts);
         }
         return chocolate;

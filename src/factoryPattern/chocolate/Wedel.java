@@ -2,6 +2,10 @@ package factoryPattern.chocolate;
 
 public class Wedel extends Chocolate {
 
+    public Wedel() {
+        super();
+    }
+
     public Wedel(ChocolateType chocolateType) {
         super(chocolateType);
     }

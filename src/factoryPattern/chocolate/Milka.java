@@ -2,6 +2,8 @@ package factoryPattern.chocolate;
 
 public class Milka extends Chocolate {
 
+    public Milka() {
+    }
 
     public Milka(ChocolateType chocolateType) {
         super(chocolateType);
